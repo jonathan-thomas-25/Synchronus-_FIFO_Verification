@@ -1,0 +1,140 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+Z1 !s12c _opt1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+Z2 !s12c _opt
+R0
+R2
+R0
+R2
+R0
+R2
+R0
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 d/u/jonthom/Personal_Projects/Synchronus_FIFO/DESIGN
+T_opt
+!s110 1746641333
+V??PXILKffebFl9mh?<_]=1
+Z4 04 2 4 work tb fast 0
+=1-5254006cf05e-681ba1b4-93878-554e
+R0
+Z5 !s12f OEM100
+Z6 !s12b OEM100
+Z7 !s124 OEM100
+Z8 !s135 nogc
+Z9 o-quiet -auto_acc_if_foreign -work work
+Z10 tCvgOpt 0
+n@_opt
+Z11 OL;O;2024.2;79
+R3
+T_opt1
+!s110 1746643462
+V>nkl]KHiLhFJio=oBNTie2
+R4
+=1-5254006cf05e-681baa05-719b6-74c6
+R0
+R5
+R6
+R7
+R8
+R9
+R10
+n@_opt1
+R11
+R3
+vfifo
+Z12 2fifo_design.sv|basic_tb.sv
+Z13 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z14 !s110 1746682127
+!i10b 1
+!s100 TcIOnl3mf?mMOeX?30Raf0
+I3JGB9Tl>kdac9:EJl8^[K1
+S1
+R3
+w1746651794
+8fifo_design.sv
+Ffifo_design.sv
+!i122 27
+L0 1 59
+Z15 VDg1SIo80bB@j0V0VzS_@n1
+Z16 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z17 !s108 1746682126.000000
+Z18 !s107 basic_tb.sv|fifo_design.sv|
+Z19 !s90 -f|run.f|+define+LEVEL2|
+!i113 0
+Z20 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z21 !s92 +define+LEVEL2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10
+vtb
+R12
+R13
+R14
+!i10b 1
+!s100 bRPY[kGF=gS]N;^4d>D>a1
+IL60bEFz=EQAR3]dlJ6XVR2
+S1
+R3
+w1746682122
+8basic_tb.sv
+Fbasic_tb.sv
+!i122 27
+L0 1 72
+R15
+R16
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R20
+R21
+R10
+Ttop_opt
+!s128 design.bin
+R14
+V_9lWVYGSWVh?eSXbXgjnf3
+R4
+R0
+R5
+R6
+R7
+R8
+o-designfile design.bin -debug
+R10
+ntop_opt
+R11
+R3

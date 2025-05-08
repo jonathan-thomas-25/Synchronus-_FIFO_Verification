@@ -1,0 +1,20 @@
+# VISUALIZERROOT = '/pkgs/mentor/questa/2024.2/questasim/linux_x86_64/VisualizerRls'
+# USER = 'jonthom'
+# Preference VisibleToolName in Category General was not found
+# Preference VisibleToolName in Category General was not found
+# Siemens software version 2024.2 (Build on May 20 2024)
+# Unpublished work. Copyright 2025 Siemens
+
+# visualizer -designfile design.bin -wavefile qwave.db
+
+# 21:50:36: Loading design data...
+# 21:50:36: Loaded  design units
+# 21:50:36: Loaded  design hierarchy
+# 21:50:36: Loading waveform header...
+# 21:50:36: Loaded  waveform header
+# Window layout 'Default' saved in file: /u/jonthom/.visualizer/layout.xml
+# Start  : Wed May  7 21:50:06 2025
+# End    : Wed May  7 22:26:36 2025
+# VMSize : 2275452 kB
+# VMPeak : 2374360 kB
+# MaxRSS : 212528 kB

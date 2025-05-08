@@ -1,0 +1,1 @@
+/pkgs/mentor/questa/2024.2/questasim/linux_x86_64/VisualizerRls/bin/viscom -nolock -quiet -jmem_size 393216 tb -o top_opt +designfile+design.bin -debug +__design_bin_path+/u/jonthom/Personal_Projects/Synchronus_FIFO/DESIGN

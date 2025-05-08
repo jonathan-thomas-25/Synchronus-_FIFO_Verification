@@ -1,0 +1,108 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session skip_do_file="0" version="3">
+ <app argc="5">
+  <argv pos="0" value="visualizer"/>
+  <argv pos="1" value="-designfile"/>
+  <argv pos="2" value="design.bin"/>
+  <argv pos="3" value="-wavefile"/>
+  <argv pos="4" value="qwave.db"/>
+ </app>
+ <window_config>
+  <dockareas top="0" right="450" left="355" bottom="266"/>
+  <taborder right="variables+" left="structure+" bottom="transcript+"/>
+  <activetab right="variables" activewindow="variables" left="structure" bottom="transcript"/>
+  <window dock_location="left" type="structure" x="0" visible="1" y="0" undocked="0"/>
+  <window dock_location="right" type="variables" x="0" visible="1" y="0" undocked="0"/>
+  <window dock_location="bottom" type="transcript" x="0" visible="1" y="0" undocked="0"/>
+  <window type="rtl" x="1680" width="2560" visible="1" y="23" undocked="0" height="1377"/>
+  <window dock_location="left" type="testbench" x="0" visible="0" y="0" undocked="0"/>
+  <window dock_location="bottom" type="wave" x="1680" width="2560" visible="1" y="23" undocked="1" height="1377"/>
+  <window dock_location="center" type="source" x="0" visible="1" y="0" path="/u/jonthom/Personal_Projects/Synchronus_FIFO/DESIGN/basic_tb.sv" undocked="0" firstVisibleLine="0"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile fileName="/u/jonthom/Personal_Projects/Synchronus_FIFO/DESIGN/qwave.db" waveType="0" tagName="F0"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser filepath="/u/jonthom/Personal_Projects/Synchronus_FIFO/DESIGN/basic_tb.sv" instancename="tb" primary="true"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 1"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting curDisplayTimeUnitStr="1ns" customDisplayTimeUnitListStr="" curDisplayTimeUnit="-9" curRadix="8" curActiveWaveFile="F0">
+   <curTime hightime="0" lowtime="155"/>
+  </watchTower_cur_setting>
+  <structure selection="tb"/>
+  <variables VA="0" CA="0" UPF="0"/>
+  <transcript/>
+  <wave name="Wave0">
+   <timeunit value="11"/>
+   <frequnit value="2"/>
+   <showdiff value="0"/>
+  </wave>
+ </gui>
+ <wave_mgr sync_time_range="0">
+  <waveWindow displayRadixWithValue="1" swapRepresentationOfX="0" primNudge="1" displayTimeUnit="-9" waveWidth="2251" snapToEdge="1" showSecCursor="0" secNudge="1" alignBaseName="0" value_tooltip="0" justifySignalPath="Right" displayFileTag="1" displayGrid="0" trackViewToTime="1" displayTimeUnitStr="1ns" nameWidth="181" wintype="4" displayScopeName="1" signalHeight="18" valueWidth="83" displayLeadingZeros="0" displayGlobalView="1" showMarkers="1">
+   <window name="Wave0">
+    <timeunit value="11"/>
+    <frequnit value="2"/>
+    <showdiff value="0"/>
+   </window>
+   <viewPort>
+    <beginTime hightime="0" lowtime="0"/>
+    <endTime hightime="0" lowtime="420"/>
+    <beginViewTime hightime="0" lowtime="100"/>
+    <endViewTime hightime="0" lowtime="202"/>
+    <beginLastViewTime hightime="0" lowtime="100"/>
+    <endLastViewTime hightime="0" lowtime="202"/>
+   </viewPort>
+   <primCursor hightime="0" lowtime="155"/>
+   <wavetclcommands>
+    <tcl command="wave update off"/>
+    <tcl command="wave clearselection"/>
+    <tcl commandblock="custom radix definitions"></tcl>
+    <tcl command="wave update off"/>
+    <tcl command="wave zoom range 100 202"/>
+    <tcl command="wave add tb.FIFO_DEPTH -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add tb.DATA_WIDTH -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add tb.clk -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add tb.rst -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add tb.wr_en -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add tb.rd_en -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add tb.data_in -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add tb.almost_empty -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add tb.almost_full -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add tb.full -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add tb.empty -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add tb.data_out -tag F0 -radix hexadecimal"/>
+    <tcl command="wave spacer {}"/>
+    <tcl command="wave group tb.dut1 -backgroundcolor #004466"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.FIFO_DEPTH -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.DATA_WIDTH -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.clk -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.rst -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.wr_en -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.rd_en -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.data_in -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.almost_full -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.almost_empty -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.full -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.empty -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.data_out -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.wr_ptr -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.rd_ptr -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group tb.dut1 tb.dut1.count -tag F0 -radix hexadecimal"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave update on"/>
+    <tcl command="wave top 0"/>
+    <tcl command=""/>
+   </wavetclcommands>
+  </waveWindow>
+ </wave_mgr>
+ <mem_mgr/>
+ <windows/>
+ <dut selection="tb"/>
+</session>

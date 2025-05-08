@@ -1,0 +1,72 @@
+# vsim -c top_opt -qwavedb=+signal+wavefile=qwave.db 
+# Start time: 22:28:50 on May 07,2025
+# Loading Siemens Visualizer shared object '/pkgs/mentor/questa/2024.2/questasim/linux_x86_64/VisualizerRls/bin/libqvisualizer.so'
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# qwavedb_dumpvars: Initiating qwavedb waveform capturing
+# 
+#  wave file name = qwave.db
+# Info: Enabling parallel (multi-threaded) wave dumping.
+# 
+# qwavedb_dumpvars: Done initiating qwavedb waveform capturing
+# 
+# [                  30][DISPLAY] data_in= 0, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=1, wr_en=1, rd_en=x
+# [                  40][DISPLAY] data_in= 0, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=x
+# [                  50][DISPLAY] data_in= 2, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=1, rd_en=x
+# [                  60][DISPLAY] data_in= 2, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=x
+# [                  70][DISPLAY] data_in= 4, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=1, rd_en=x
+# [                  80][DISPLAY] data_in= 4, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=x
+# [                  90][DISPLAY] data_in= 6, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=1, rd_en=x
+# [                 100][DISPLAY] data_in= 6, data_out= 0, almost_full=1, almost_empty=1, full=0, empty=0, wr_en=0, rd_en=x
+# [                 110][DISPLAY] data_in= 8, data_out= 0, almost_full=1, almost_empty=1, full=0, empty=0, wr_en=1, rd_en=x
+# [                 120][DISPLAY] data_in= 8, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=x
+# [                 130][DISPLAY] data_in=10, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=1, rd_en=x
+# [                 140][DISPLAY] data_in=10, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=x
+# [                 150][DISPLAY] data_in=12, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=1, rd_en=x
+# [                 160][DISPLAY] data_in=12, data_out= 0, almost_full=0, almost_empty=0, full=1, empty=0, wr_en=0, rd_en=x
+# [                 170][DISPLAY] data_in=14, data_out= 0, almost_full=0, almost_empty=0, full=1, empty=0, wr_en=1, rd_en=x
+# [                 180][DISPLAY] data_in=14, data_out= 0, almost_full=0, almost_empty=0, full=1, empty=0, wr_en=0, rd_en=x
+# [                 190][DISPLAY] data_in= 0, data_out= 0, almost_full=0, almost_empty=0, full=1, empty=0, wr_en=1, rd_en=x
+# [                 200][DISPLAY] data_in= 0, data_out= 0, almost_full=0, almost_empty=0, full=1, empty=0, wr_en=0, rd_en=x
+# [                 210][DISPLAY] data_in= 2, data_out= 0, almost_full=0, almost_empty=0, full=1, empty=0, wr_en=1, rd_en=x
+# [                 220][DISPLAY] data_in= 2, data_out= 0, almost_full=0, almost_empty=0, full=1, empty=0, wr_en=0, rd_en=x
+# [                 230][DISPLAY] data_in= 2, data_out= 0, almost_full=0, almost_empty=0, full=1, empty=0, wr_en=0, rd_en=x
+# [                 240][DISPLAY] data_in= 2, data_out= 0, almost_full=0, almost_empty=0, full=1, empty=0, wr_en=0, rd_en=0
+# [                 250][DISPLAY] data_in= 2, data_out= 0, almost_full=0, almost_empty=0, full=1, empty=0, wr_en=0, rd_en=1
+# [                 260][DISPLAY] data_in= 2, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=0
+# [                 270][DISPLAY] data_in= 2, data_out= 0, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=1
+# [                 280][DISPLAY] data_in= 2, data_out= 2, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=0
+# [                 290][DISPLAY] data_in= 2, data_out= 2, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=1
+# [                 300][DISPLAY] data_in= 2, data_out= 4, almost_full=1, almost_empty=1, full=0, empty=0, wr_en=0, rd_en=0
+# [                 310][DISPLAY] data_in= 2, data_out= 4, almost_full=1, almost_empty=1, full=0, empty=0, wr_en=0, rd_en=1
+# [                 320][DISPLAY] data_in= 2, data_out= 6, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=0
+# [                 330][DISPLAY] data_in= 2, data_out= 6, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=1
+# [                 340][DISPLAY] data_in= 2, data_out= 8, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=0
+# [                 350][DISPLAY] data_in= 2, data_out= 8, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=1
+# [                 360][DISPLAY] data_in= 2, data_out=10, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=0
+# [                 370][DISPLAY] data_in= 2, data_out=10, almost_full=0, almost_empty=0, full=0, empty=0, wr_en=0, rd_en=1
+# [                 380][DISPLAY] data_in= 2, data_out=12, almost_full=0, almost_empty=0, full=0, empty=1, wr_en=0, rd_en=0
+# [                 390][DISPLAY] data_in= 2, data_out=12, almost_full=0, almost_empty=0, full=0, empty=1, wr_en=0, rd_en=1
+# [                 400][DISPLAY] data_in= 2, data_out=12, almost_full=0, almost_empty=0, full=0, empty=1, wr_en=0, rd_en=0
+# [                 410][DISPLAY] data_in= 2, data_out=12, almost_full=0, almost_empty=0, full=0, empty=1, wr_en=0, rd_en=1
+# [                 420][DISPLAY] data_in= 2, data_out=12, almost_full=0, almost_empty=0, full=0, empty=1, wr_en=0, rd_en=0
+# ** Note: $finish    : basic_tb.sv(67)
+#    Time: 420 ns  Iteration: 1  Instance: /tb
+# End time: 22:28:53 on May 07,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# Disable bg thread...
+# qwavedb_dumpvars : Simulation ending at [0 420] 0
