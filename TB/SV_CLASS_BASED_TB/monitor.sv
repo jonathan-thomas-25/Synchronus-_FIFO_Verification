@@ -20,6 +20,10 @@ class monitor;
 				pkt.wr_en<=mon_vif.wr_en;
 				pkt.rst<=mon_vif.rst;
 				pkt.data_in<=mon_vif.data_in;
+				pkt.almost_full<=mon_intf.full;
+				pkt.full<=mon_intf.full;
+				pkt.almost_empty<=mon_intf.almost_empty;
+				pkt.empty<=mon_intf.empty;
 			//end	
 		end
 	endtask

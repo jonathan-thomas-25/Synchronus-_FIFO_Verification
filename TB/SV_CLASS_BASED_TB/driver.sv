@@ -10,8 +10,13 @@ class driver;
 	endfunction
 
 
-	task reset();
-		@(negedge driver_intf.clk);		
+	task reset_fifo();
+		@(negedge driver_intf.clk);
+		driver_intf.rst<=pkt.rst;
+		repeat(5) @(negedge driver_intf.clk);
+		@(negedge driver_intf.clk);
+		driver_intf.rst<=pkt.rst;
+		repeat(2) @(posedge clk);		
 	endtask
 
 	task drive();
